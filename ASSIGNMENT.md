@@ -1,6 +1,6 @@
 # Python Testing
 
-To run this lesson, you can either start a GitHub Codespace (you will have pytest installed automatically) or you can create a Python environment from the `environment.yml` file.
+To run this lesson, create a Python environment from the `environment.yml` file.
 
 ```bash
 conda env create -f environment.yml
