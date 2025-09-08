@@ -99,20 +99,6 @@ If all goes well, you will see an indication that your tests passed.
 
 4. **Another way to test a value** - Using your answer to problem 3, write another test which uses an alternate way of making a test fail if the expected value is not calculated. Hint: You will use a skill you learned during Chem 274A week 1. **Question** What different approach did you use in your test. Why did you choose this?
 
-5. Write at least two more test cases for your `calculate_LJ` function. **Question** - What test cases did you write and how did you choose them?
+5. Write at least two more test cases for your `calculate_LJ` function. **Question** - What test cases did you write and how did you choose them?  Did your function behave as expected? If not, investigate why. How did testing help you evaluate this?
 
-6. Add the following test for your `calculate_distance_function`
-
-```python
-def test_calculate_distance():
-    coordA = [0, 0, 0]
-    coordB = [1, 0, 0]
-
-    expected_value = 1
-
-    assert calculate_distance(coordA, coordB) == 1
-```
-
-**Question** - Is this a good test, why or why not?
-
-7. Write at least four more test cases for your calculate distance function. Make sure to test the case where you have a box length and where you don't. Also make sure you are testing variation in all dimensions: x, y, and z. **Question** - What test cases did you write and how did you choose them? Did your function behave as expected? If not, investigate why. How did testing help you evaluate this?
+6. If you were to create a Makefile for this repository what targets would you include? What might that look like? If you have time, try to create your own Makefile and test it out.
